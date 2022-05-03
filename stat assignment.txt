@@ -1,0 +1,8 @@
+> library(readxl)
+> district_level_service_msme <- read_excel("C:/Users/user/Downloads/district_level_service_msme.xlsx")
+> View(district_level_service_msme)
+> mean(district_level_service_msme$Total)
+[1] 7686.029
+> var(district_level_service_msme$Total)
+[1] 203137514
+> 
